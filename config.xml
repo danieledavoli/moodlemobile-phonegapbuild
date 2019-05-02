@@ -2,18 +2,18 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.eplinio.plinioapp"
         versionCode = "36100"
         android-versionCode="36100"
-        version   = "3.6.1">
-    <name>Moodle</name>
+        version   = "0.9.0">
+    <name>Plinio</name>
 
     <description>
-        Moodle official app
+        Plinio official App
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="http://p.formax.cloud" email="daniele.davoli.1994@gmail.com">
+        Daniele Davoli
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
@@ -165,8 +165,8 @@
         <variable name="FCM_VERSION" value="17.0.+" />
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Moodle']" mode="merge">
-        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Plinio']" mode="merge">
+        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false"></activity>
     </edit-config>
 
     <!-- See MOBILE-892 -->

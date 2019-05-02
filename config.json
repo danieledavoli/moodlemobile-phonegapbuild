@@ -1,9 +1,9 @@
 {
-    "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
-    "desktopappname": "Moodle Desktop",
+    "app_id": "com.eplinio.plinioapp",
+    "appname": "Plinio Mobile",
+    "desktopappname": "Plinio Desktop",
     "versioncode": 3610,
-    "versionname": "3.6.1",
+    "versionname": "0.9.0",
     "cache_expiration_time": 300000,
     "default_lang": "en",
     "languages": {
